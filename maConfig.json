@@ -1,0 +1,80 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+
+  /*modification perso */
+  "git.autofetch": false,
+
+  /*OPTION CONSERNAT LA EDITOR*/
+
+  /* Aficher des espase leser en fin de ligne*/
+  "editor.renderWhitespace": "trailing",
+  /*modification des tage html simetrique les modification de balise se fon par paire*/
+  "editor.linkedEditing": true,
+  /*insertion de subjetion*/
+  "editor.suggest.insertMode": "replace",
+  /*ne plus utisiser la pemier subjestion */
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  /*visualiser les goupe de {[()]}*/
+  "editor.guides.bracketPairs": true,
+
+  /* tous ce qui conserne prettier*/
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.formatOnSave": true,
+
+  /*OPTION CONSERNAT LA GESTION DES FICHIER*/
+
+  /*Sauvegarde Auto lorque je change de fichier*/
+  "files.autoSave": "onFocusChange",
+  /*langage par defaut lor de la creation d'un nouveau fichier */
+  "files.defaultLanguage": "markdown",
+  /*conserne les etention de fichier lue et aficher*/
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+
+  /*OPTION CONSERNAT L'EXPLORATEUR DE FICHIER*/
+
+  /*ajout atomatique*/
+  "workbench.iconTheme": "material-icon-theme",
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.confirmSync": false,
+  "window.zoomLevel": 1,
+  "github.gitProtocol": "ssh",
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.codespaces.createCodespaceInNewWindow": true,
+  "github.codespaces.showPerformanceExplorer": true,
+  "githubRepositories.experimental.fs.useTars": "always",
+  "workbench.editorAssociations": {
+    "*.scssc": "default"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "vscode-edge-devtools.webhint": false,
+  "editor.minimap.enabled": false,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command"
+  ],
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "git.ignoreRebaseWarning": true
+}
